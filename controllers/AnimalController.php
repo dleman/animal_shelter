@@ -54,12 +54,12 @@ class AnimalController {
     
     public function delete($id) {
         if (!$id) {
-            die('Błąd: brak ID zwierzęcia.');
+            die('Error: anmial ID missing.');
         }
     
         $animal = $this->animalModel->getById($id);
         if (!$animal) {
-            die('Błąd: zwierzę nie istnieje.');
+            die('Error: animal does not exists.');
         }
     
         $this->animalModel->delete($id);

@@ -16,9 +16,9 @@
     <div class="mb-3">
         <label for="adoption_status" class="form-label">Status adopcyjny</label>
         <select class="form-control" id="adoption_status" name="adoption_status" required>
-            <option value="available">Dostępny</option>
-            <option value="adopted">Zaadoptowany</option>
-            <option value="reserved">Zarezerwowany</option>
+            <option value="Available">Dostępny</option>
+            <option value="Adopted">Zaadoptowany</option>
+            <option value="Reserved">Zarezerwowany</option>
         </select>
     </div>
     

@@ -17,7 +17,7 @@ class APIClient {
         $response = curl_exec($ch);
         
         if ($response === false) {
-            throw new Exception('Błąd podczas wykonywania zapytania: ' . curl_error($ch));
+            throw new Exception('Error executing the query: ' . curl_error($ch));
         }
         
         curl_close($ch);
@@ -34,7 +34,7 @@ class APIClient {
         $response = curl_exec($ch);
         
         if ($response === false) {
-            throw new Exception('Błąd podczas wykonywania zapytania: ' . curl_error($ch));
+            throw new Exception('Error executing the query: ' . curl_error($ch));
         }
         
         curl_close($ch);
@@ -51,7 +51,7 @@ class APIClient {
         $response = curl_exec($ch);
         
         if ($response === false) {
-            throw new Exception('Błąd podczas wykonywania zapytania: ' . curl_error($ch));
+            throw new Exception('Error executing the query: ' . curl_error($ch));
         }
         
         curl_close($ch);
@@ -66,7 +66,7 @@ class APIClient {
         $response = curl_exec($ch);
         
         if ($response === false) {
-            throw new Exception('Błąd podczas wykonywania zapytania: ' . curl_error($ch));
+            throw new Exception('Error executing the query: ' . curl_error($ch));
         }
         
         curl_close($ch);

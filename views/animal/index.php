@@ -24,9 +24,9 @@
                 <td>
                     <?php 
                         $statusClass = match ($animal['adoption_status']) {
-                            'Available' => 'badge bg-success', // Zielony dla dostępnych
-                            'Adopted' => 'badge bg-secondary', // Szary dla adoptowanych
-                            'Reserved' => 'badge bg-warning text-dark', // Żółty dla zarezerwowanych
+                            'Available' => 'badge bg-success',
+                            'Adopted' => 'badge bg-secondary',
+                            'Reserved' => 'badge bg-warning text-dark',
                             default => 'badge bg-light text-dark'
                         };
                     ?>

@@ -39,9 +39,7 @@ class Animal {
     }
     
     public function findByName($name) {
-        error_log("Szukane imię: " . print_r($name, true));
         $name = urlencode($name);
-        error_log("Zakodowane imię: " . print_r($name, true));
         return $this->apiClient->get("/animal?name={$name}"); 
     }
 }
