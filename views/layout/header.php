@@ -38,7 +38,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="/animal">🐾 Schronisko</a>
+            <a class="navbar-brand" href="/">🐾 Schronisko</a>
             <div class="d-flex gap-2">
                 <a href="/" class="btn btn-custom">📋 Lista zwierząt</a>
                 <a href="/?action=create" class="btn btn-custom">➕ Dodaj zwierzę</a>
