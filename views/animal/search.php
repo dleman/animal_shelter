@@ -1,4 +1,4 @@
-<form id="searchForm" action="/animal" method="GET" class="row g-3">
+<form id="searchForm" action="/" method="GET" class="row g-3">
     <input type="hidden" name="action" value="search">
     <div class="col-auto">
         <input type="text" id="searchInput" name="name" class="form-control" placeholder="Szukaj po imieniu">
