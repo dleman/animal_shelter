@@ -28,7 +28,7 @@ class AnimalController {
             ];
             
             $this->animalModel->create($data);
-            header('Location: /animal');
+            header('Location: /');
             exit();
         }
         require 'views/animal/create.php';
@@ -46,7 +46,7 @@ class AnimalController {
             ];
             
             $this->animalModel->update($id, $data);
-            header('Location: /animal');
+            header('Location: /');
             exit();
         }
         require 'views/animal/edit.php';
@@ -63,7 +63,7 @@ class AnimalController {
         }
     
         $this->animalModel->delete($id);
-        header('Location: /animal');
+        header('Location: /');
         exit();
     }
     
