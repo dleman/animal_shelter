@@ -2,7 +2,7 @@
 
 <h1>Edytuj zwierzę</h1>
 
-<form action="/animal?action=edit&id=<?= $animal['id'] ?>" method="POST">
+<form action="/?action=edit&id=<?= $animal['id'] ?>" method="POST">
     <div class="mb-3">
         <label for="name" class="form-label">Imię</label>
         <input type="text" class="form-control" id="name" name="name" 
@@ -30,7 +30,7 @@
     </div>
     
     <button type="submit" class="btn btn-primary">Zapisz zmiany</button>
-    <a href="/animal" class="btn btn-secondary">Anuluj</a>
+    <a href="/" class="btn btn-secondary">Anuluj</a>
 </form>
 
 <?php require 'views/layout/footer.php'; ?>

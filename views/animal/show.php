@@ -7,6 +7,6 @@
 <p><strong>Status adopcyjny:</strong> <?= htmlspecialchars($animal['adoption_status']) ?></p>
 <p><strong>Opis:</strong> <?= htmlspecialchars($animal['description']) ?></p>
 
-<a href="/animal" class="btn btn-secondary">Powrót</a>
+<a href="/" class="btn btn-secondary">Powrót</a>
 
 <?php require 'views/layout/footer.php'; ?>

@@ -33,13 +33,13 @@
                     <span class="<?= $statusClass ?>"><?= htmlspecialchars($animal['adoption_status']) ?></span>
                 </td>
                 <td>
-                    <a href="/animal?action=show&id=<?= $animal['id'] ?>" class="btn btn-sm btn-info">
+                    <a href="/?action=show&id=<?= $animal['id'] ?>" class="btn btn-sm btn-info">
                         🔍 Szczegóły
                     </a>
-                    <a href="/animal?action=edit&id=<?= $animal['id'] ?>" class="btn btn-sm btn-warning">
+                    <a href="/?action=edit&id=<?= $animal['id'] ?>" class="btn btn-sm btn-warning">
                         ✏️ Edytuj
                     </a>
-                    <a href="/animal?action=delete&id=<?= $animal['id'] ?>" 
+                    <a href="/?action=delete&id=<?= $animal['id'] ?>" 
                        class="btn btn-sm btn-danger"
                        onclick="return confirm('Czy na pewno chcesz usunąć to zwierzę?')">
                         🗑️ Usuń

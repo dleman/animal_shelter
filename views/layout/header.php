@@ -40,8 +40,8 @@
         <div class="container">
             <a class="navbar-brand" href="/animal">🐾 Schronisko</a>
             <div class="d-flex gap-2">
-                <a href="/animal" class="btn btn-custom">📋 Lista zwierząt</a>
-                <a href="/animal?action=create" class="btn btn-custom">➕ Dodaj zwierzę</a>
+                <a href="/" class="btn btn-custom">📋 Lista zwierząt</a>
+                <a href="/?action=create" class="btn btn-custom">➕ Dodaj zwierzę</a>
             </div>
         </div>
     </nav>

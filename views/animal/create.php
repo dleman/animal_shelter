@@ -2,7 +2,7 @@
 
 <h1>Dodaj nowe zwierzę</h1>
 
-<form action="/animal?action=create" method="POST">
+<form action="/?action=create" method="POST">
     <div class="mb-3">
         <label for="name" class="form-label">Imię</label>
         <input type="text" class="form-control" id="name" name="name" required>
@@ -28,7 +28,7 @@
     </div>
     
     <button type="submit" class="btn btn-primary">Dodaj</button>
-    <a href="/animal" class="btn btn-secondary">Anuluj</a>
+    <a href="/" class="btn btn-secondary">Anuluj</a>
 </form>
 
 <?php require 'views/layout/footer.php'; ?>
